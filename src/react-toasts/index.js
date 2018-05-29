@@ -1,5 +1,5 @@
 import React from 'react';
-import {ToastContainer, ToastStore} from '../../../react-toasts/build';
+import {ToastContainer, ToastStore} from 'react-toasts';
 
 import './index.css';
 
@@ -7,7 +7,7 @@ export const ReactToasts = () => {
     return (
         <div className="root">
             <div className="bc">
-                <ToastContainer store={ToastStore}/>
+                <ToastContainer store={ToastStore} position={ToastContainer.POSITION.BOTTOM_RIGHT}/>
                 <div className="text">
                     <h1>Welcome to react-toasts test page</h1>
                     <span>This page is currently using the component default values. <br/>
