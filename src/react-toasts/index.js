@@ -15,7 +15,7 @@ export const ReactToasts = () => {
                 </div>
                 <div className="buttons">
                     <div className="button buttonSuccess" onClick={() => {
-                        ToastStore.success("It works !")
+                        ToastStore.success("It works !\nWith line break")
                     }}>Success
                     </div>
                     <div className="button buttonInfo" onClick={() => {
