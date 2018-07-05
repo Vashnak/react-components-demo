@@ -15,11 +15,11 @@ export const ReactToasts = () => {
                 </div>
                 <div className="buttons">
                     <div className="button buttonSuccess" onClick={() => {
-                        ToastStore.success("It works !\nWith line break")
+                        ToastStore.success("It works !\n With line break (thx to '\\n') ")
                     }}>Success
                     </div>
                     <div className="button buttonInfo" onClick={() => {
-                        ToastStore.info("It's pretty cool :)")
+                        ToastStore.info("It's pretty cool :), timer = 10s", 10000)
                     }}>Info
                     </div>
                     <div className="button buttonWarning" onClick={() => {
@@ -27,7 +27,7 @@ export const ReactToasts = () => {
                     }}>Warning
                     </div>
                     <div className="button buttonError" onClick={() => {
-                        ToastStore.error("Haaa it doesn't work anymore x(")
+                        ToastStore.error("Haaa it doesn't work anymore x(\nThis toast has custom bootstrap classes", 5000, 'alert-danger')
                     }}>Error
                     </div>
                 </div>
