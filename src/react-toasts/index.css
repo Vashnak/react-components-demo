@@ -68,6 +68,11 @@ a, a:visited, a:hover, a:active {
   background-color: rgba(231, 76, 60, 1);
 }
 
+
+#demo .bc .buttons .buttonHtml {
+  background-color: rgb(186, 82, 181);
+}
+
 @media screen and (max-height: 641px){
   #demo .bc .text h1{
     padding: 0 10px;
