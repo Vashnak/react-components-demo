@@ -41,8 +41,8 @@ module.exports = {
                 loader: 'json-loader'
             },
             {
-                test: /\.scss|\.css$/,
-                loaders: ['style-loader', 'css-loader', 'sass-loader']
+                test: /\.css$/,
+                loaders: ['style-loader', 'css-loader']
             },
             {
                 test: /\.woff(2)?(\?v=[0-9]\.[0-9]\.[0-9])?$/,

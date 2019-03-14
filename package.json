@@ -8,7 +8,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=development webpack-dev-server --hot --history-api-fallback --open --host 0.0.0.0",
+    "start": "webpack-dev-server --hot --history-api-fallback",
     "build": "NODE_ENV=production webpack && cp index.html dist/index.html"
   },
   "keywords": [],
@@ -16,7 +16,7 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-toasts": "^2.0.10"
+    "react-toasts": "^3.0.0"
   },
   "devDependencies": {
     "babel-core": "https://registry.npmjs.org/babel-core/-/babel-core-6.23.1.tgz",
@@ -28,7 +28,6 @@
     "copy-webpack-plugin": "^4.4.1",
     "css-loader": "^0.28.4",
     "file-loader": "^0.11.2",
-    "node-sass": "^4.5.3",
     "react-build-dist": "0.0.8",
     "react-hot-loader": "https://registry.npmjs.org/react-hot-loader/-/react-hot-loader-3.0.0-beta.6.tgz",
     "sass-loader": "^6.0.5",
