@@ -1,5 +1,5 @@
 import React from 'react';
-import {ToastsContainer, ToastsStore, ToastsContainerPosition} from '../../../react-toasts/lib';
+import {ToastsContainer, ToastsStore, ToastsContainerPosition} from 'react-toasts';
 
 import './index.css';
 
