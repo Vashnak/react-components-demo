@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {AppContainer} from 'react-hot-loader'
-import {ReactToasts} from './react-toasts';
+import {Router} from './Router';
 
 const render = Component => {
     ReactDOM.render(
@@ -12,11 +12,11 @@ const render = Component => {
     )
 };
 
-render(ReactToasts);
+render(Router);
 
 if (module.hot) {
-    module.hot.accept('./react-toasts', () => {
-        const main = require('./react-toasts').default;
+    module.hot.accept('./Router', () => {
+        const main = require('./Router').default;
         render(main)
     })
 }

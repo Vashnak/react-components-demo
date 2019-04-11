@@ -16,6 +16,8 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
     "react-toasts": "^3.0.1"
   },
   "devDependencies": {
